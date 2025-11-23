@@ -3,112 +3,129 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Roee Jukin
-    tagline: General Technologist With a Passion for Automation
-    avatar: #profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Roee Jukin
+  tagline: DevOps/Platform Tech Lead · AWS · Kubernetes · Automation
+  avatar: #profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: roeej@pm.me
-    phone: (+972) 052 380 2334
-    timezone: Asia/Jerusalem
-    citizenship: Israeli
-    website: rdg.cx #do not add http://
-    github: roeej
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: 
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://roeej.github.io/cv/resume.pdf
+  # Sidebar links
+  email: roeej@pm.me
+  phone: (+972) 052 380 2334
+  timezone: Asia/Jerusalem
+  citizenship: Israeli
+  #website: rdg.cx #do not add http://
+  github: roeej
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  #pdf: https://roeej.github.io/cv/resume.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Hebrew
-          level: Native
-        - idiom: English
-          level: Native
-    planguages:
-      title: Programming Languages
-      info:
-        - idiom: Rust
-          level: Proficient
-        - idiom: TypeScript
-          level: Proficient
-        - idiom: JavaScript
-          level: Proficient
-        - idiom: C#
-          level: Proficient
-        - idiom: Java
-          level: Proficient
-        - idiom: Python
-          level: Intermediate
-        - idiom: Go
-          level: Intermediate
+  languages:
+    title: Languages
+    info:
+      - idiom: Hebrew
+        level: Native
+      - idiom: English
+        level: Native
+  planguages:
+    title: Programming Languages
+    info:
+      - idiom: Rust
+        level: Proficient
+      - idiom: TypeScript
+        level: Proficient
+      - idiom: JavaScript
+        level: Proficient
+      - idiom: C#
+        level: Proficient
+      - idiom: Java
+        level: Proficient
+      - idiom: Python
+        level: Intermediate
+      - idiom: Go
+        level: Intermediate
 
-    interests:
-      title: Interests
-      info:
-        - item: Stargazing
-        - item: Game Development
-        - item: Deep Learning
+  interests:
+    title: Interests
+    info:
+      - item: Stargazing
+      - item: Game Development
+      - item: Deep Learning
 
 career-profile:
-    title: Career Profile
-    summary: |
-        • General technologist with in-depth knowledge and experience spanning multiple paradigms (Windows/Linux Administration, Development and automation, network/datacenter planning).
-        
-        • Experienced and familiar with DevOps methodologies and tools.
-        
-        • A team player, organized, service oriented, with high self-learning capabilities, excellent interpersonal skills, and comprehensive systemic vision.
+  title: Career Profile
+  summary: |
+    • DevOps/Platform tech lead focused on AWS, Kubernetes, CI/CD, and automation that improves reliability, security, and delivery speed.
 
-        • Many years of RDBMS experience spanning MySQL/PostgreSQL/MSSQL building multiple products
-        
-        • Fast learner, career oriented, looking for long-term growth
+    • Architectural background across distributed systems and cloud infrastructure; comfortable defining patterns, governance, and build-vs-buy decisions.
 
+    • Mentors teams and leads cross-functional collaboration with product, security, and customer architects to land designs and ship safely.
+
+    • Deep systems and database experience (MySQL/PostgreSQL/MSSQL/NoSQL) paired with strong troubleshooting and observability practices.
 
 experiences:
-    title: Experiences
-    info:
-      - role: CTO/Fullstack developer/Sr. System Administrator
-        time: 2016 - Present
-        company: Giganet, Israel
-        details: |
-            • **Datacenter Administration–** Plan, build and maintain a highly-available, always on environment spanning multiple datacenters serving hundreds of companies
+  title: Experiences
+  info:
+    - role: AWS DevOps Engineer
+      time: Jun 2025 - Present
+      company: Abra
+      details: |
+        • **AWS Platform & CI/CD –** Lead AWS infrastructure, CI/CD, and platform automation; streamline cost, reliability, and security baselines
 
-            • **Training/Mentoring** - Introducing a training/mentoring program for all interested staff to eliminate dependency on external contractors
-            
-            • **Fullstack Development** – Built a distributed, full stack (Backend/Frontend/Distributed Agents), VOIP management system serving thousands of customers
+        • **AI Enablement –** Build and operate in-house LLM-powered tools and services; integrate safely into existing platforms with auth, guardrails, and observability
 
-            • **Operational Monitoring** – Set up and maintain monitoring systems (Prometheus/Telegraf/InfluxDB/Grafana) for internal systems spanning hundreds of VMs
+        • **Team Leadership & Enablement –** Set DevOps standards, coach engineers and leads, and drive incident readiness/runbooks with product and customer-facing teams
 
-            • **CI/CD** - Built and maintained pipelines for multiple in-house products with ArgoCD, github actions and gitlab CI
+    - role: Software Architect
+      time: Oct 2023 - May 2025
+      company: Abra
+      details: |
+        • **Architecture Leadership –** Define patterns and standards across services and cloud infrastructure for new and existing products
 
-            • **Kubernetes** - Built and maintain Kubernetes clusters hosting internal services and monitoring systems
+        • **Product Alignment –** Partner with engineering and product to evaluate build-vs-buy, sequence deliveries, and reduce technical risk
 
+        • **Cross-Team Coordination –** Work with in-house and customer architects to align designs; guide and upskill team leads through reviews and pairing
+
+        • **Mission Systems –** Architect distributed/federated, high-assurance solutions for defense programs with stringent confidentiality requirements
+
+    - role: CTO/Fullstack developer/Sr. System Administrator
+      time: 2016 - Sep 2023
+      company: Giganet, Israel
+      details: |
+        • **Datacenter Administration–** Plan, build and maintain a highly-available, always on environment spanning multiple datacenters serving hundreds of companies
+
+        • **Training/Mentoring** - Introducing a training/mentoring program for all interested staff to eliminate dependency on external contractors
+
+        • **Fullstack Development** – Built a distributed, full stack (Backend/Frontend/Distributed Agents), VOIP management system serving thousands of customers
+
+        • **Operational Monitoring** – Set up and maintain monitoring systems (Prometheus/Telegraf/InfluxDB/Grafana) for internal systems spanning hundreds of VMs
+
+        • **CI/CD** - Built and maintained pipelines for multiple in-house products with ArgoCD, github actions and gitlab CI
+
+        • **Kubernetes** - Built and maintain Kubernetes clusters hosting internal services and monitoring systems
 
 projects:
-    title: Projects
-    intro: >
-      Some projects I've worked on over the years
-    assignments:
-      - title: cours.es
-        link: "https://github.com/RoeeJ/coursedashboard"
-        tagline: "Dashboard used for serving an android development course - not running anymore"
-      - title: NGNSA
-        link: "https://github.com/RoeeJ/ngnsa"
-        tagline: "Anticheat/remote memory editor used for a game server I ran"
-      - title: NGNS
-        link: "https://github.com/RoeeJ/ngns"
-        tagline: "An emulated game server for a MMORPG, based on an older open source project, highly customized and improved"
-
+  title: Projects
+  intro: >
+    Some projects I've worked on over the years
+  assignments:
+    - title: cours.es
+      link: "https://github.com/RoeeJ/coursedashboard"
+      tagline: "Dashboard used for serving an android development course - not running anymore"
+    - title: NGNSA
+      link: "https://github.com/RoeeJ/ngnsa"
+      tagline: "Anticheat/remote memory editor used for a game server I ran"
+    - title: NGNS
+      link: "https://github.com/RoeeJ/ngns"
+      tagline: "An emulated game server for a MMORPG, based on an older open source project, highly customized and improved"
 
 # oss:
 #     title: OSS Contributions
@@ -130,25 +147,25 @@ projects:
 #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Troubleshooting 
-        level: 100%
-      - name: Virtualization and Systems Management
-        level: 90%
-      - name: System Architecture
-        level: 85%
-      - name: Datacenter Planning
-        level: 85%
-      - name: MongoDB
-        level: 85%
-      - name: SQL/Relational Databases
-        level: 80%
-      - name: Frontend Design
-        level: 65%
-      - name: Figma & Photoshop
-        level: 65%
+  toolset:
+    - name: Troubleshooting
+      level: 100%
+    - name: Cloud Architecture (AWS)
+      level: 95%
+    - name: DevOps & CI/CD
+      level: 90%
+    - name: Kubernetes & Containers
+      level: 90%
+    - name: Infrastructure as Code (Terraform/CloudFormation)
+      level: 85%
+    - name: Observability & SRE Practices
+      level: 85%
+    - name: Security & Compliance (cloud)
+      level: 80%
+    - name: Data Platforms (SQL/NoSQL)
+      level: 80%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

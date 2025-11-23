@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Roee Jukin
-  tagline: DevOps/Platform Tech Lead · AWS · Kubernetes · Automation
+  tagline: DevOps/Platform Tech Lead · AWS/EKS · Terraform/Helm · CI/CD & Observability
   avatar: #profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -61,15 +61,15 @@ sidebar:
       - item: Deep Learning
 
 career-profile:
-  title: Career Profile
-  summary: |
-    • DevOps/Platform tech lead focused on AWS, Kubernetes, CI/CD, and automation that improves reliability, security, and delivery speed.
+    title: Career Profile
+    summary: |
+        • DevOps/Platform tech lead for AWS/EKS, CI/CD, and observability, owning reliability, security, and delivery speed for large per-tenant defense programs and prior multi-tenant SaaS.
 
-    • Architectural background across distributed systems and cloud infrastructure; comfortable defining patterns, governance, and build-vs-buy decisions.
+        • Defines cloud/infrastructure patterns and governance (Terraform/Helm/Pulumi) and guides build-vs-buy and sequencing decisions with product and security.
 
-    • Mentors teams and leads cross-functional collaboration with product, security, and customer architects to land designs and ship safely.
+        • Leads incident readiness and postmortems, mentoring teams on SLOs, runbooks, and disciplined delivery.
 
-    • Deep systems and database experience (MySQL/PostgreSQL/MSSQL/NoSQL) paired with strong troubleshooting and observability practices.
+        • Deep systems and database background (MySQL/PostgreSQL/MSSQL/NoSQL) plus strong troubleshooting and observability habits.
 
 experiences:
   title: Experiences
@@ -78,11 +78,19 @@ experiences:
       time: Jun 2025 - Present
       company: Abra
       details: |
-        • **AWS Platform & CI/CD –** Lead AWS infrastructure, CI/CD, and platform automation; streamline cost, reliability, and security baselines
+        • **AWS Platform & EKS –** Own per-tenant EKS/RDS/S3/Lambda environments; drive resilience, security, and cost baselines
 
-        • **AI Enablement –** Build and operate in-house LLM-powered tools and services; integrate safely into existing platforms with auth, guardrails, and observability
+        • **CI/CD –** GitHub Actions and ArgoCD pipelines with policy-as-code and progressive delivery; Jenkins used where required
 
-        • **Team Leadership & Enablement –** Set DevOps standards, coach engineers and leads, and drive incident readiness/runbooks with product and customer-facing teams
+        • **IaC –** Terraform and Pulumi plus Helm; modules, drift detection, and guardrails (CloudFormation for legacy stacks)
+
+        • **Observability & SLOs –** Prometheus/Grafana/CloudWatch with Loki/ELK; SLOs, alerting, incident runbooks, and postmortems
+
+        • **Eventing & Caching –** Operate Kafka and Redis for throughput, retention, and clustering needs
+
+        • **AI/LLM Tools –** Build internal LLM-powered tools; W&B used for training monitoring
+
+        • **Leadership –** Set DevOps standards, mentor engineers, and lead incident readiness with product/customer-facing teams
 
     - role: Software Architect
       time: Oct 2023 - May 2025
@@ -94,7 +102,7 @@ experiences:
 
         • **Cross-Team Coordination –** Work with in-house and customer architects to align designs; guide and upskill team leads through reviews and pairing
 
-        • **Mission Systems –** Architect distributed/federated, high-assurance solutions for defense programs with stringent confidentiality requirements
+        • **Mission Systems –** Architect distributed/federated, high-assurance solutions for defense programs with stringent confidentiality requirements and per-tenant deployments
 
     - role: CTO/Fullstack developer/Sr. System Administrator
       time: 2016 - Sep 2023
@@ -147,25 +155,27 @@ projects:
 #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
-  title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiency
 
-  toolset:
-    - name: Troubleshooting
-      level: 100%
-    - name: Cloud Architecture (AWS)
-      level: 95%
-    - name: DevOps & CI/CD
-      level: 90%
-    - name: Kubernetes & Containers
-      level: 90%
-    - name: Infrastructure as Code (Terraform/CloudFormation)
-      level: 85%
-    - name: Observability & SRE Practices
-      level: 85%
-    - name: Security & Compliance (cloud)
-      level: 80%
-    - name: Data Platforms (SQL/NoSQL)
-      level: 80%
+    toolset:
+      - name: Troubleshooting
+        level: 100%
+      - name: Cloud Architecture (AWS/EKS)
+        level: 95%
+      - name: DevOps & CI/CD (GitHub Actions/ArgoCD/Jenkins)
+        level: 90%
+      - name: Kubernetes & Containers (Helm/Kustomize)
+        level: 90%
+      - name: Infrastructure as Code (Terraform/Pulumi/CFN)
+        level: 85%
+      - name: Observability (Prometheus/Grafana/CloudWatch/Loki/ELK)
+        level: 85%
+      - name: Eventing & Caching (Kafka/Redis)
+        level: 80%
+      - name: Security & Compliance (cloud)
+        level: 80%
+      - name: Scripting (Python/Go)
+        level: 80%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
